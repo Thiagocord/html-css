@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+</head>
+<body>
+    <h1>imagens dinamicas</h1>
+    <p>tente abrir em varias despositivos diferente s como smartphone computadores e tablets ou apenas diminua seu navegador </p>
+    
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagemP.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagemM.png " type="image/png">
+        
+        <img src="imagens/imagemG.png" alt="imagem flexivem">
+    </picture>
+    <h1>reproduzindo audio</h1>
+    <p>vamos aprender como colocar midia de audio no site</p>
+    <p>maneira mais facil é usar a tag audio não esqueça do parametro autoplay e controls</p>
+    <audio src="midia/Bruno Mars - Locked out of Heaven.mp3"controls autoplay loop></audio>
+    <audio preload="auto" autoplay controls loop>
+        <source src="midia/Talking to the Moon (Acoustic Piano).mp3" type="audio/mpeg">
+        
+        
+    </audio><p>infelizmente seu navegador na carregar a mida audio então clique <a href="midia/Talking to the Moon (Acoustic Piano).mp3">aqui</a> para baixar</p>
+
+
+    
+</body>
+</html>

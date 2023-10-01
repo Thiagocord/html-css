@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tag</title>
+</head>
+<style>
+    body{
+       
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: lightgray;
+        margin: 0px;
+    }
+
+    nav{
+        background-color: rgb(104, 109, 114);
+        padding: 3px;
+        box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.233);
+    }
+
+    nav > a{
+        color: aliceblue;
+        margin: 15px;
+        text-decoration: none;
+        
+    }
+
+    nav > a:hover{
+        color: red;
+        text-decoration: underline;
+    }
+
+    header{
+        background-color: white;
+        padding:10px;
+        margin: 10px;
+
+    }
+
+    main{
+        background-color: white;
+        padding:10px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    article{
+        background-color: lightgray;
+        padding: 3px;
+        
+
+    }
+    article > aside{
+        background-color: rgb(155, 155, 155);
+    }
+
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 2%;
+        
+    }
+
+    footer > p{
+        margin: 0px;
+        
+    }
+    div#bola{
+        background-color: white;
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        border-radius: 50px;
+        
+
+    }
+</style>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias do Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error rem, laboriosam nobis facere quibusdam, sequi quaerat corrupti perspiciatis est, ad harum asperiores fuga. Et perspiciatis debitis aspernatur culpa reprehenderit soluta.</p>
+                <aside>
+                    <p>artigo escrito por: Fulano</p>
+                </aside>
+            </article>
+            <article>
+                <p></p>
+            </article>
+        </section>
+        
+    </main>
+    <footer>
+        <p>Desenvolvido por Thiago Cordeiro!</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
