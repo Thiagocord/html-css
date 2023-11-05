@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        h1{
+            text-align: center;
+            
+        }
+        table{
+            width: 500px;
+            margin: 50px auto;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.2rem;
+            font-weight: bolder;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        .cnome{
+            background-color: aqua;
+        }
+        .csexo{
+            background-color: aquamarine;
+        }
+        .cidade{
+            background-color: bisque;
+        }
+        .cpro{
+            background-color: rgba(137, 43, 226, 0.281);
+        }
+
+    </style>
+</head>
+<body>
+    <h1>fazendo mais Tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cpro">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Marcia</td>
+            <td>F</td>
+            <td>29</td>
+            <td>secretária</td>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>M</td>
+            <td>45</td>
+            <td>mecânico</td>
+        </tr>
+        <tr>
+            <td>Paulo</td>
+            <td>M</td>
+            <td>35</td>
+            <td>Modelo</td>
+        </tr>
+        <tr>
+            <td>Beatriz</td>
+            <td>F</td>
+            <td>19</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Jorge</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Vendedor</td>
+        </tr>
+    </table>
+</body>
+</html>
